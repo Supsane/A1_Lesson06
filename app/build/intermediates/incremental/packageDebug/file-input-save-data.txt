@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 18 15:55:38 GMT+03:00 2017
+#Tue Apr 18 16:33:04 GMT+03:00 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Android\\Projects\\A1_Lesson06\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_dark.xml

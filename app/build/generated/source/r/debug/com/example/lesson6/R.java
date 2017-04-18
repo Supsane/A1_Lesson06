@@ -2051,11 +2051,17 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f050011;
         public static final int abc_toolbar_collapse_description=0x7f050012;
         public static final int address=0x7f050021;
-        public static final int app_name=0x7f050022;
-        public static final int logo=0x7f050023;
-        public static final int name_salon=0x7f050024;
-        public static final int s_hair=0x7f050025;
-        public static final int s_nails=0x7f050026;
+        public static final int ap_man=0x7f050022;
+        public static final int ap_man_op=0x7f050023;
+        public static final int ap_ped=0x7f050024;
+        public static final int ap_ped_op=0x7f050025;
+        public static final int app_name=0x7f050026;
+        public static final int kl_man=0x7f050027;
+        public static final int kl_man_op=0x7f050028;
+        public static final int logo=0x7f050029;
+        public static final int name_salon=0x7f05002a;
+        public static final int s_hair=0x7f05002b;
+        public static final int s_nails=0x7f05002c;
         public static final int search_menu_title=0x7f050013;
         public static final int status_bar_notification_info_overflow=0x7f050014;
     }
@@ -2066,15 +2072,8 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0700a3;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f07000b;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f0700a4;
         public static final int Base_AlertDialog_AppCompat=0x7f0700a5;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0700a6;
