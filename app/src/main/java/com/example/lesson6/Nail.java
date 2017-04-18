@@ -1,24 +1,27 @@
 package com.example.lesson6;
 
-public class Nail {
+import android.content.Context;
+import android.support.v7.app.AppCompatActivity;
 
-	private String name;
-	private String description;
+public class Nail extends AppCompatActivity {
+
+	private int nameId;
+	private int descriptionId;
 	private int imageResourceId;
 
 	// Для каждой услуги ногтевого сервиса хранится название, описание и ресурс изображения
-	private Nail(String name, String description, int imageResourceId) {
-		this.name = name;
-		this.description = description;
+	private Nail(int name, int description, int imageResourceId) {
+		this.nameId = name;
+		this.descriptionId = description;
 		this.imageResourceId = imageResourceId;
 	}
 
-	public String getName() {
-		return name;
+	public int getNameId() {
+		return nameId;
 	}
 
-	public String getDescription() {
-		return description;
+	public int getDescriptionId() {
+		return descriptionId;
 	}
 
 	public int getImageResourceId() {
@@ -27,19 +30,20 @@ public class Nail {
 
 	@Override
 	public String toString() {
-		return this.name;
+		Context context = getApplicationContext();
+		return context.getResources().getString(nameId);
 	}
 
 	// nails - массив с элементами Nail
 	public static final Nail[] nails = {
-			new Nail("Классический маникюр",
-					"Классический обрезной маникюр подходит для любого состояния ногтей. Процедура начинается с обязательной обработки кожи рук специальным дезинфицирующим средством. Ногтям придается желаемая форма. Руки погружают в теплый раствор, после чего размягченную кутикулу удаляют маникюрными щипчиками, избавляются от заусенцев. В конце процедуры массажными движениями на кожу вокруг ногтя наносится питательное масло – оно оказывает заживляющее воздействие, питает ногтевую пластину.",
+			new Nail(R.string.kl_man,
+					R.string.kl_man_op,
 					R.drawable.kl_man),
-			new Nail("Аппаратный маникюр",
-					"Отличное решение для проблемных ногтей. Аппаратный маникюр будет эффективен как при поврежденной ногтевой пластине, так и при различных грибковых инфекциях. Аппаратный маникюр выполняется с использованием специального аппарата: боры и фрезы устраняют ороговевшие участки эпидермиса вокруг ногтевого ложа, придают форму ногтям, оставляя кутикулу без повреждений. Маникюр обязательно делают только на сухой коже, что полностью исключает травматизм и риск заражения. Процедура абсолютно               безопасна и безболезненна.",
+			new Nail(R.string.ap_man,
+					R.string.ap_man_op,
 					R.drawable.ap_man),
-			new Nail("Аппаратный педикюр",
-					"Благодаря особой технике проведения аппаратного педикюра - решение  проблем стопы, вросшего ногтя, трещин, мозолей, грибковых заболеваний - становится реальным. Аппаратный педикюр абсолютно гигиеничен. Стопа не подвергается распариванию в воде, а обрабатывается специальным смягчающим средством для ороговевшей кожи. В качестве инструментов для обработки ногтей, кутикулы и загрубевшей кожи –используют профессиональные насадки, боры и фрезы различных размеров и диаметров. Они удаляют жесткий роговой слой, не трогая здоровую кожу, что  делает процедуру полностью безболезненной.",
+			new Nail(R.string.ap_ped,
+					R.string.ap_ped_op,
 					R.drawable.ap_ped)};
 
 }
