@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:8:2-23:16
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:11:3-35
+	android:allowBackup
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:9:3-29
+	android:icon
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:10:3-38
+	android:theme
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:12:3-34
+activity#com.example.lesson6.TopActivity
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:13:3-20:14
+	android:label
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:15:4-36
+	android:name
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:14:4-31
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:16:4-19:20
+action#android.intent.action.MAIN
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:17:5-56
+	android:name
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:17:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:18:5-64
+	android:name
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:18:15-62
+activity#com.example.lesson6.NailCategoryActivity
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:21:3-51
+	android:name
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:21:13-49
+activity#com.example.lesson6.NailActivity
+ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:22:3-43
+	android:name
+		ADDED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml:22:13-41
+uses-sdk
+INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Android\Projects\A1_Lesson06\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\Projects\A1_Lesson06\app\src\main\AndroidManifest.xml

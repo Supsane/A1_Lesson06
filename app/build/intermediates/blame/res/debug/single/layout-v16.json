@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Documents\\GeekBrains\\Level1\\Lesson6\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "D:\\Documents\\GeekBrains\\Level1\\Lesson6\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Android\\Projects\\A1_Lesson06\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Android\\Projects\\A1_Lesson06\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Documents\\GeekBrains\\A1_Lesson06\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "D:\\Documents\\GeekBrains\\A1_Lesson06\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
+    }
+]
